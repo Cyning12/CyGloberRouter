@@ -15,6 +15,16 @@
 		ED1D05FE1E55F110007F28D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1D05FC1E55F110007F28D9 /* LaunchScreen.storyboard */; };
 		ED1D06091E55F110007F28D9 /* CyGloberRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06081E55F110007F28D9 /* CyGloberRouterTests.m */; };
 		ED1D06141E55F110007F28D9 /* CyGloberRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06131E55F110007F28D9 /* CyGloberRouterUITests.m */; };
+		ED1D06361E55F133007F28D9 /* CMDQueryStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06241E55F133007F28D9 /* CMDQueryStringReader.m */; };
+		ED1D06371E55F133007F28D9 /* CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06261E55F133007F28D9 /* CMDQueryStringSerialization.m */; };
+		ED1D06381E55F133007F28D9 /* CMDQueryStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06281E55F133007F28D9 /* CMDQueryStringValueTransformer.m */; };
+		ED1D06391E55F133007F28D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED1D062A1E55F133007F28D9 /* Info.plist */; };
+		ED1D063A1E55F133007F28D9 /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D062D1E55F133007F28D9 /* ISO8601Serialization.m */; };
+		ED1D063B1E55F133007F28D9 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D062F1E55F133007F28D9 /* NSDate+ISO8601.m */; };
+		ED1D063C1E55F133007F28D9 /* NSString+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06311E55F133007F28D9 /* NSString+CMDQueryStringSerialization.m */; };
+		ED1D063D1E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06331E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.m */; };
+		ED1D063E1E55F133007F28D9 /* CyRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06351E55F133007F28D9 /* CyRouter.m */; };
+		ED1D06411E55F169007F28D9 /* LocalGloberRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D06401E55F169007F28D9 /* LocalGloberRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		ED1D060F1E55F110007F28D9 /* CyGloberRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyGloberRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1D06131E55F110007F28D9 /* CyGloberRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyGloberRouterUITests.m; sourceTree = "<group>"; };
 		ED1D06151E55F110007F28D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D06231E55F133007F28D9 /* CMDQueryStringReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringReader.h; sourceTree = "<group>"; };
+		ED1D06241E55F133007F28D9 /* CMDQueryStringReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringReader.m; sourceTree = "<group>"; };
+		ED1D06251E55F133007F28D9 /* CMDQueryStringSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringSerialization.h; sourceTree = "<group>"; };
+		ED1D06261E55F133007F28D9 /* CMDQueryStringSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringSerialization.m; sourceTree = "<group>"; };
+		ED1D06271E55F133007F28D9 /* CMDQueryStringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringValueTransformer.h; sourceTree = "<group>"; };
+		ED1D06281E55F133007F28D9 /* CMDQueryStringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDQueryStringValueTransformer.m; sourceTree = "<group>"; };
+		ED1D06291E55F133007F28D9 /* CMDQueryStringWritingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDQueryStringWritingOptions.h; sourceTree = "<group>"; };
+		ED1D062A1E55F133007F28D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D062B1E55F133007F28D9 /* ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601.h; sourceTree = "<group>"; };
+		ED1D062C1E55F133007F28D9 /* ISO8601Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601Serialization.h; sourceTree = "<group>"; };
+		ED1D062D1E55F133007F28D9 /* ISO8601Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601Serialization.m; sourceTree = "<group>"; };
+		ED1D062E1E55F133007F28D9 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		ED1D062F1E55F133007F28D9 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		ED1D06301E55F133007F28D9 /* NSString+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		ED1D06311E55F133007F28D9 /* NSString+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
+		ED1D06321E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		ED1D06331E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
+		ED1D06341E55F133007F28D9 /* CyRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRouter.h; sourceTree = "<group>"; };
+		ED1D06351E55F133007F28D9 /* CyRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRouter.m; sourceTree = "<group>"; };
+		ED1D063F1E55F169007F28D9 /* LocalGloberRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalGloberRouter.h; sourceTree = "<group>"; };
+		ED1D06401E55F169007F28D9 /* LocalGloberRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalGloberRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,9 @@
 		ED1D05ED1E55F110007F28D9 /* CyGloberRouter */ = {
 			isa = PBXGroup;
 			children = (
+				ED1D063F1E55F169007F28D9 /* LocalGloberRouter.h */,
+				ED1D06401E55F169007F28D9 /* LocalGloberRouter.m */,
+				ED1D06211E55F133007F28D9 /* CyRouter */,
 				ED1D05F11E55F110007F28D9 /* AppDelegate.h */,
 				ED1D05F21E55F110007F28D9 /* AppDelegate.m */,
 				ED1D05F41E55F110007F28D9 /* ViewController.h */,
@@ -138,6 +172,40 @@
 				ED1D06151E55F110007F28D9 /* Info.plist */,
 			);
 			path = CyGloberRouterUITests;
+			sourceTree = "<group>";
+		};
+		ED1D06211E55F133007F28D9 /* CyRouter */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D06221E55F133007F28D9 /* CMDQueryStringSerialization */,
+				ED1D06341E55F133007F28D9 /* CyRouter.h */,
+				ED1D06351E55F133007F28D9 /* CyRouter.m */,
+			);
+			path = CyRouter;
+			sourceTree = "<group>";
+		};
+		ED1D06221E55F133007F28D9 /* CMDQueryStringSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D06231E55F133007F28D9 /* CMDQueryStringReader.h */,
+				ED1D06241E55F133007F28D9 /* CMDQueryStringReader.m */,
+				ED1D06251E55F133007F28D9 /* CMDQueryStringSerialization.h */,
+				ED1D06261E55F133007F28D9 /* CMDQueryStringSerialization.m */,
+				ED1D06271E55F133007F28D9 /* CMDQueryStringValueTransformer.h */,
+				ED1D06281E55F133007F28D9 /* CMDQueryStringValueTransformer.m */,
+				ED1D06291E55F133007F28D9 /* CMDQueryStringWritingOptions.h */,
+				ED1D062A1E55F133007F28D9 /* Info.plist */,
+				ED1D062B1E55F133007F28D9 /* ISO8601.h */,
+				ED1D062C1E55F133007F28D9 /* ISO8601Serialization.h */,
+				ED1D062D1E55F133007F28D9 /* ISO8601Serialization.m */,
+				ED1D062E1E55F133007F28D9 /* NSDate+ISO8601.h */,
+				ED1D062F1E55F133007F28D9 /* NSDate+ISO8601.m */,
+				ED1D06301E55F133007F28D9 /* NSString+CMDQueryStringSerialization.h */,
+				ED1D06311E55F133007F28D9 /* NSString+CMDQueryStringSerialization.m */,
+				ED1D06321E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.h */,
+				ED1D06331E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.m */,
+			);
+			path = CMDQueryStringSerialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1D06391E55F133007F28D9 /* Info.plist in Resources */,
 				ED1D05FE1E55F110007F28D9 /* LaunchScreen.storyboard in Resources */,
 				ED1D05FB1E55F110007F28D9 /* Assets.xcassets in Resources */,
 				ED1D05F91E55F110007F28D9 /* Main.storyboard in Resources */,
@@ -273,9 +342,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1D063D1E55F133007F28D9 /* NSURL+CMDQueryStringSerialization.m in Sources */,
 				ED1D05F61E55F110007F28D9 /* ViewController.m in Sources */,
+				ED1D063C1E55F133007F28D9 /* NSString+CMDQueryStringSerialization.m in Sources */,
+				ED1D06361E55F133007F28D9 /* CMDQueryStringReader.m in Sources */,
 				ED1D05F31E55F110007F28D9 /* AppDelegate.m in Sources */,
 				ED1D05F01E55F110007F28D9 /* main.m in Sources */,
+				ED1D06381E55F133007F28D9 /* CMDQueryStringValueTransformer.m in Sources */,
+				ED1D063E1E55F133007F28D9 /* CyRouter.m in Sources */,
+				ED1D06371E55F133007F28D9 /* CMDQueryStringSerialization.m in Sources */,
+				ED1D06411E55F169007F28D9 /* LocalGloberRouter.m in Sources */,
+				ED1D063A1E55F133007F28D9 /* ISO8601Serialization.m in Sources */,
+				ED1D063B1E55F133007F28D9 /* NSDate+ISO8601.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CyGloberRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyning.CyGloberRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CyGloberRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyning.CyGloberRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
